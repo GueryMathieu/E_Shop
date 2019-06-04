@@ -1,24 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css.map">
     <link rel="stylesheet" href="assets/CSS/styles.css">
-    <title>Document</title>
+    <title>Chandelier</title>
 </head>
+
 <body>
     <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">The Jew's Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogue.html">Notre Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panier.html">Mon Panier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Nous Contacter</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Rechercher">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+                </form>
+            </div>
+        </nav>
     </header>
+
     <main>
 
+        <h3>Chandelier à 7 branches :</h3>
+
+        <div class="row">
+
+            <div class="col-5"></div>
+
+                <div class="col-2">
+                    <div class="carte">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/imgProducts/Chandelier.jpg" alt="CardTalit">
+                            <div class="card-body">
+                                <h5 class="card-title">Chandelier</h5>
+                                <p class="card-text">Chandelier de cérémonie à 7 branches fait en acier inoxydable avec son étoile de David.</p>
+                                <a href="#" class="btn btn-primary">24.99€ - Ajouter au panier</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-5"></div>
+            
+        </div>
+        
     </main>
+
     <footer>
 
+        <div class="row">
+            <div class="col-12">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogue.html">Notre Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panier.html">Mon Panier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Nous Contacter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Mentions Légales</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <script src="assets/JS/script.js"></script>
+
     </footer>
 </body>
+
 </html>
