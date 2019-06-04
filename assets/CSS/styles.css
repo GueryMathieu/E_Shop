@@ -1,7 +1,15 @@
+nav{
+    height: 10%;
+    font-size: 23px;
+    text-align: center;
+}
+
 main{
     height:auto;
     padding: 3% 7%;
-    background-image: url("assets/imgProducts/etoileJuif.jpg");
+    background-image: url("/home/bobby/code/e_shop/assets/Images/mazel-tov.png");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 footer{
