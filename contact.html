@@ -37,7 +37,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Rechercher">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Go</button>
                 </form>
             </div>
         </nav>
@@ -50,12 +50,12 @@
 
         <form id="formulaire">
 
-           
-            <label for="male">Homme
+
+            <label for="male">Homme :
                 <input type="checkbox" name="Homme" id="male">
             </label>
-            
-            <label for="female">Femme
+
+            <label for="female">Femme :
                 <input type="checkbox" name="Femme" id="female">
             </label>
 
@@ -71,8 +71,9 @@
                 <input type="text" name="Objet" id="object">
             </label>
 
-            <label for="comment">Commentaires : 
-                <textarea name="comment" cols="20" rows="8" id="comment" placeholder="Chalom, tapez votre texte ici :"></textarea>
+            <label for="comment">Commentaires :
+                <textarea name="comment" cols="20" rows="8" id="comment"
+                    placeholder="Chalom, tapez votre texte ici :"></textarea>
             </label>
 
             <input type="submit" value="Envoyer">
@@ -86,27 +87,29 @@
         <div class="row">
             <div class="col-12">
 
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="catalogue.html">Notre Catalogue</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="panier.html">Mon Panier</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Nous Contacter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="">Mentions Légales</a>
-                    </li>
-                </ul>
+                <div class="footNav">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogue.html">Notre Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="panier.html">Mon Panier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Nous Contacter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Mentions Légales</a>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
         </div>
-   
+
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <script src="assets/JS/script.js"></script>
